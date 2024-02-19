@@ -1,3 +1,6 @@
+"use client";
+
+import { useState, useEffect } from 'react';
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDoc, doc } from 'firebase/firestore/lite';
 
@@ -14,11 +17,27 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-async function gsGetData(field) {
-    const docRef = doc(db, "data", "fields");
-    const docSnap = await getDoc(docRef);
-    const fieldValue = docSnap.data()[field];
-    return fieldValue;
-}
+export default function FirebaseComponent() {
+    const [data, setData] = useState(null);
 
-export default gsGetData;
+    useEffect(() => {
+        const gsGetData = async () => {
+          try {
+            const docRef = doc(db, "data", "fields");
+            const docSnap = await getDoc(docRef);
+            const fieldValue = docSnap.data()["field1"];
+            setData(fieldValue);
+          } catch (error) {
+            console.error('Error fetching data:', error);
+          }
+        };
+    
+        gsGetData();
+      }, []);
+      
+    return (
+        <div>
+            <h1>Field1: {data ? (<p>{data}</p>) : (<p>Loading...</p>)}</h1>
+        </div>
+    )
+}
