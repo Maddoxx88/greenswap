@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useEffect } from 'react';
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDoc, doc } from 'firebase/firestore/lite';
+import { doc, getDoc, getFirestore } from 'firebase/firestore/lite';
+import { useEffect, useState } from 'react';
 
 const firebaseConfig = {
   apiKey: "AIzaSyC3DYDNNiiwKkY-167L3pU6oFzY9sOLtnE",
@@ -16,6 +16,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
+
 
 export default function FirebaseComponent() {
     const [data, setData] = useState(null);
@@ -41,3 +42,6 @@ export default function FirebaseComponent() {
         </div>
     )
 }
+
+export { firestore };
+
