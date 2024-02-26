@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="https://greenswap.netlify.app/">
+    <img alt="greenswap" src="./assets/github-repo-cover.png" />
+  </a>
+</p>
+<h1 align="center">
+  greenswap
+</h1>
 
-## Getting Started
+<p align="center">
+<a href="https://github.com/Maddoxx88/greenswap/blob/main/LICENSE" target="blank">
+<img src="https://img.shields.io/github/license/Maddoxx88/greenswap?style=flat-square" alt="greenswap license" />
+</a>
+<a href="https://github.com/Maddoxx88/greenswap/stargazers" target="blank">
+<img src="https://img.shields.io/github/stars/Maddoxx88/greenswap?style=flat-square" alt="greenswap stars"/>
+</a>
+<a href="https://github.com/Maddoxx88/greenswap/issues" target="blank">
+<img src="https://img.shields.io/github/issues/Maddoxx88/greenswap?style=flat-square" alt="greenswap issues"/>
+</a>
+<a href="https://github.com/Maddoxx88/greenswap/pulls" target="blank">
+<img src="https://img.shields.io/github/issues-pr/Maddoxx88/greenswap?style=flat-square" alt="greenswap pull-requests"/>
+</a>
+</p>
 
-First, run the development server:
+<p align="center"><img src="./assets/greenswap-demo-03.gif" alt="github-profile-readme-generator gif" width="500"/></p>
+
+<p align="center">
+    <a href="https://greenswap.netlify.app/" target="blank">View Demo</a>
+    ·
+    <a href="https://github.com/Maddoxx88/greenswap/issues/new/choose">Report Bug</a>
+    ·
+    <a href="https://github.com/Maddoxx88/greenswap/issues/new/choose">Request Feature</a>
+</p>
+
+<p align="center">
+<i>Loved the tool? Found some bugs? Hate the tool? Please consider <a href="https://github.com/Maddoxx88/greenswap/issues">contributing </a>  ✍️ to help it improve!</i>
+</p>
+
+#### Want to be more eco-friendly?
+
+This tool provides an easy way to find alternatives for wasteful products.
+
+## 🚀 Demo
+
+<a href="https://greenswap.netlify.app/" target="blank">
+<img src="https://img.shields.io/website?url=https://greenswap.netlify.app/&logo=github&style=flat-square" />
+</a>
+
+Try the app  —  [greenswap](https://greenswap.netlify.app/)
+
+## 🧪 CI/CD
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/86fd5845-d2c4-40ad-9a67-9c5247eb8f68/deploy-status)](https://app.netlify.com/sites/greenswap/deploys)
+
+## ✅ Features
+
+- List common items and eco-friendly counterparts
+
+- Search feature
+
+- Display carbon footprint of items
+
+- Provide sources for items 
+
+## 🛠️ Installation Steps
+
+1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Maddoxx88/greenswap.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Change the working directory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+cd greenswap
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies
 
-## Learn More
+```bash
+yarn
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+🌟 You are all set!
 
-## Deploy on Vercel
+## 🍰 Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Maddoxx88/greenswap/compare).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
+
+## 💻 Built with
+
+- [Next.js](https://nextjs.org/): for frontend
+- [Firebase](https://firebase.google.com/): for backend
+- [Tailwind](https://tailwindcss.com/): for styling
+
+<hr>
+<p align="center">
+Give it a ⭐ if you like it! 
+</p>
